@@ -1,0 +1,65 @@
+body {
+	background-image: url('/img/pittsburgh.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.intro {
+	float: left;
+}
+
+.intro p {
+	font-family: sans-serif;
+    color: white;
+    font-size: 2rem;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.intro span {
+	font-family: fantasy;
+    font-size: -webkit-xxx-large;
+}
+
+#intro-about {
+
+	font-size: 1.1rem;
+    width: 25rem;
+}
+
+.nav-bar {
+	float: right;
+	margin-right: 2rem;
+	margin-top: 3rem;
+}
+
+.nav-bar button {
+	margin-right: 7rem;
+    font-size: 2rem;
+    background-color: Transparent;
+    color: white;
+    border-radius: 20%;
+}
+
+.nav-bar input {
+	margin-right: 7rem;
+    font-size: 2rem;
+    background-color: Transparent;
+    color: white;
+    border-radius: 20%;
+}
+
+#about {
+	width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+
+
