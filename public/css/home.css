@@ -116,7 +116,7 @@ h2:after {
 
 
 
-section {
+section .about {
     background-color: #F0EAD6;
     background-size: 100%;
 }
@@ -162,6 +162,16 @@ section {
     margin-right: 1rem;
 
 }
+
+.skills-container {
+    position: relative;
+}
+
+.skill {
+    position: absolute;
+}
+
+
 
 footer table {
     margin: auto;
