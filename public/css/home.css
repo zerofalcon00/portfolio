@@ -277,7 +277,8 @@ footer table {
     .blog h1 {
         font-family: sans-serif;
         margin: 0;
-        text-align: center;
+        text-align: left;
+        padding-left: 5vw;
         font-size: 3rem;
         padding-top: 3rem;
     }
@@ -289,6 +290,7 @@ footer table {
     }
 
     .blog p {
+        width: 55vw;
         font-family: sans-serif;
         margin-left: 3rem;
         margin-right: 3rem;
@@ -346,6 +348,32 @@ footer table {
     }
     .menu_btn{
         display: block;
+    }
+
+    .container {
+        background: #FFF;
+        height: 40vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .monkey {
+        stroke: green;
+        stroke-width: 2px;
+        stroke-dashoffset: -2000;
+        stroke-dasharray: 2000;
+        animation: monkey 3s infinite;
+
+    }
+
+    @keyframes monkey {
+        from {
+            stroke-dashoffset: -2000;
+        }
+        to {
+            stroke-dashoffset: 0;
+        }
+
     }
 
 }
