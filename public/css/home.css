@@ -183,7 +183,7 @@ footer table {
 
 /*MEDIA QUERIES*/
 
-@media(min-width: 320px) {
+@media(max-width: 450px) {
     .menu {
         display: none;
     }
