@@ -4,6 +4,8 @@ body {
     background-size: 100%;*/
     margin: 0;
 }
+
+
 .parallax{
     background-image: url('/img/pittsburgh.jpg');
     min-height: 800px;
@@ -42,7 +44,7 @@ body {
 }
 
 .nav-bar a {
-	margin-right: 5rem;
+	margin-right: 3rem;
     font-size: 2rem;
     background-color: Transparent;
     color: white;
@@ -182,6 +184,9 @@ footer table {
 /*MEDIA QUERIES*/
 
 @media(min-width: 320px) {
+    .menu {
+        display: none;
+    }
     .parallax {
         background-image: url(/img/pittsburgh.jpg);
         min-height: 1750px;
@@ -208,21 +213,21 @@ footer table {
     }
 
     #intro-about {
-        font-size: 1.1rem;
-        width: 38rem;
+        font-size: 1rem;
+        width: 35rem;
     }
 
     .intro p {
         font-family: sans-serif;
         color: white;
-        font-size: 3rem;
+        font-size: 2rem;
         padding-left: 3rem;
         margin-bottom: 1rem;
     }
 
     .intro span {
         font-family: fantasy;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .about_text p {
@@ -295,11 +300,52 @@ footer table {
     }
 
 
-.blog_home {
-    margin-left: 25rem;
-    text-decoration: none;
-    font-size: 3rem;
-}
+    .blog_home {
+        margin-left: 25rem;
+        text-decoration: none;
+        font-size: 3rem;
+    }
 
+    .nav-bar {
+        display: none;
+    }   
+
+    .menu{ 
+        font-weight:bold;  
+        width:20%; 
+        height: 42vw;
+        background:#f1f1f1;   
+        text-align:center; 
+        font-size:33px;
+        float: right;
+    }
+    .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+    .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+    .menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+    .menu ul li a:hover {  color: #666; text-decoration:none;}
+    .menu a{text-decoration:none; color:#666; margin-top: 28%;}
+    .menu a:hover{text-decoration:none; color:#666;}
+
+    .hamburger{
+      margin-top: 5vw;
+      margin-right: 5vw;
+      background:none;
+      position:absolute;
+      top:0;
+      right:0;
+      line-height:45px;
+      padding:5px 15px 0px 15px;
+      color:#999;
+      border:0;
+      font-size:4.4em;
+      font-weight:bold;
+      cursor:pointer;
+      outline:none;
+      z-index:10000000000000;
+    }
+    .menu_btn{
+        display: block;
+    }
 
 }

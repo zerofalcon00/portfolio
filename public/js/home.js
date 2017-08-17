@@ -6,3 +6,19 @@ function show(location) {
 	}
 	
 }
+
+function showMenu() {
+	var menu = document.getElementById('menu')
+	var hamburger = document.getElementById('hamburger')
+
+	menu.style.display = 'block'
+	hamburger.style.display = 'none'
+}
+
+function showHamburger() {
+	var menu = document.getElementById('menu')
+	var hamburger = document.getElementById('hamburger')
+
+	menu.style.display = 'none'
+	hamburger.style.display = 'block'
+}

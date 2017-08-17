@@ -1,6 +1,6 @@
 require 'sinatra'
 
-class Portfolio < Sinatra::Base
+# class Portfolio < Sinatra::Base
 
 get '/' do
 	erb :home
@@ -10,5 +10,5 @@ get '/blog' do
 	erb :blog
 end
 
-end
+# end
 
